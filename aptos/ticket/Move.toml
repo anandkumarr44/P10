@@ -1,9 +1,0 @@
-[package]
-name = "TicketTutorial"
-version = "0.1.0"
-
-[addresses]
-TicketTutorial = "0xcafe"
-
-[dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev ="devnet" }
