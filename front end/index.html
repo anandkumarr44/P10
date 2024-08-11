@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Charity Fund Management</h1>
+    </header>
+
+    <main>
+        <section id="create-account">
+            <h2>Create Account</h2>
+            <form id="create-account-form">
+                <label for="initial-balance">Initial Balance:</label>
+                <input type="number" id="initial-balance" required>
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+
+        <section id="deposit">
+            <h2>Deposit Funds</h2>
+            <form id="deposit-form">
+                <label for="deposit-address">Account Address:</label>
+                <input type="text" id="deposit-address" required>
+                <label for="deposit-amount">Amount:</label>
+                <input type="number" id="deposit-amount" required>
+                <button type="submit">Deposit</button>
+            </form>
+        </section>
+
+        <section id="withdraw">
+            <h2>Withdraw Funds</h2>
+            <form id="withdraw-form">
+                <label for="withdraw-address">Account Address:</label>
+                <input type="text" id="withdraw-address" required>
+                <label for="withdraw-amount">Amount:</label>
+                <input type="number" id="withdraw-amount" required>
+                <button type="submit">Withdraw</button>
+            </form>
+        </section>
+
+        <section id="get-balance">
+            <h2>Get Balance</h2>
+            <form id="get-balance-form">
+                <label for="balance-address">Account Address:</label>
+                <input type="text" id="balance-address" required>
+                <button type="submit">Get Balance</button>
+            </form>
+            <p id="balance-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Charity Project. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
